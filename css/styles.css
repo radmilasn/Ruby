@@ -14,8 +14,8 @@ hr {
 
 h1 {
   margin: 50px auto 0 auto;
-  font-family: 'Stalemate', cursive;
-  font-size: 6rem;
+  font-family: 'Clicker Script', cursive;
+  font-size: 700%;
   color: #424874;
 }
 
@@ -59,14 +59,14 @@ h3 {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 23%;
+  top: 8%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 23%;
+  bottom: 40%;
 }
 
 .top-container {
@@ -86,6 +86,7 @@ h3 {
 
 .skills {
   padding: 50px;
+  padding-bottom: 20px;
 }
 
 .skill-row {
