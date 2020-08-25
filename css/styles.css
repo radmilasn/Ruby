@@ -58,15 +58,49 @@ h3 {
 }
 
 .top-cloud {
+  opacity: 0.6;
   position: absolute;
   right: 23%;
-  top: 8%;
+  top: 10%;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 60%;
+    width: 20%;
+  }
+
+  to {
+    margin-left: 50%;
+    width: 8%;
+  }
 }
 
 .bottom-cloud {
+  opacity: 0.5;
   position: absolute;
   left: 23%;
-  bottom: 40%;
+  bottom: 50%;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 40%;
+    width: 20%;
+  }
+
+  to {
+    margin-right: 50%;
+    width: 8%;
+  }
 }
 
 .top-container {
